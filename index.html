@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+  <title>LinkTree Josuebmlll</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ruluko&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+  <!-- CSS estilos -->
+  <style>
+
+    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Ruluko', sans-serif;
+  
+}
+
+.Fondo{
+position: fixed;
+width: 100%;
+height: 100%;
+
+background: linear-gradient(90deg, #ACB6E5 0%, #86FDE8 100%);
+
+}
+/* TITULO */
+.titulo {
+position: absolute;
+
+left: 50px;
+top: 20px;
+
+font-family: Ruluko;
+font-style: normal;
+font-weight: normal;
+font-size: 65px;
+line-height: 83px;
+font-feature-settings: 'kern' off;
+
+color: rgba(133, 85, 246, 0.49);
+
+
+}
+
+/* Ilustracion  */
+
+
+.img{
+
+  animation: ilustrationAnimate ease-in 1s infinite alternate;
+ 
+ position: absolute;
+width: 205px;
+height: 131px;
+left: 80px;
+top: 400px;
+
+border-radius: 50px;
+}
+@keyframes ilustrationAnimate {
+  0% {
+    transform: scale(1);
+  } 100% {
+    transform: scale(1.09);
+  }
+}
+
+/*YOUTUBE*/
+.YT {
+position: absolute;
+width: 113px;
+height: 26px;
+left: 100px;
+top: 25px;
+
+font-family: Ruluko;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.LogoYT {
+position: absolute;
+width: 71px;
+height: 47px;
+left: 10px;
+top: 14px;
+
+background: url(LogoYT.png);
+border-radius: 15px;
+
+}
+.Youtube {
+
+position: absolute;
+width: 250px;
+height: 77px;
+left: 55px;
+top: 100px;
+
+background: #96E1E7;
+border: 1px solid #27CEE4;
+box-sizing: border-box;
+border-radius: 50px;  
+
+
+
+}
+/*GITHUB*/
+
+/* link     */
+.GH {
+
+position: absolute;
+width: 317px;
+height: 29px;
+left: 100px;
+top: 21px;
+
+font-family: Ruluko;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+ 
+.LogoGH {
+
+  position: absolute;
+width: 65px;
+height: 60px;
+left: 10px;
+top: 8px;
+
+background: url(LogoGITHUB.png);
+border-radius: 176px;
+}
+
+/* cuadro de fondo/boton */
+.Github {
+  position: absolute;
+width: 250px;
+height: 77px;
+left: 55px;
+top: 200px;
+
+background: #96E1E7;
+border: 1px solid #27CEE4;
+box-sizing: border-box;
+border-radius: 50px;
+}
+
+/* INSTAGRAM  */
+
+/* Cuadro/Boton */
+
+.Instagram {
+position: absolute;
+width: 250px;
+height: 77px;
+left: 55px;
+top: 300px;
+
+background: #96E1E7;
+border: 1px solid #27CEE4;
+box-sizing: border-box;
+border-radius: 50px;
+
+
+}
+  /* link */
+ .IG {
+ position: absolute;
+width: 127px;
+height: 30px;
+left: 80px;
+top: 20px;
+
+   font-family: Ruluko;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+ }
+
+  .LogoIG {
+    
+position: absolute;
+width: 59px;
+height: 64px;
+left: 10px;
+top: 5px;
+
+background: url(LogoINsta.jpg);
+border-radius: 97px;
+  }
+/* Computadora */
+.PC {
+  position: absolute;
+font-size: 25px;
+left: 70px;
+top: 5px;
+}
+.Computadora {
+  position: absolute;
+width: 250px;
+height: 77px;
+left: 55px;
+top: 550px;
+
+background: #96E1E7;
+border: 1px solid #27CEE4;
+box-sizing: border-box;
+border-radius: 50px;
+}
+
+
+  </style>
+
+  <!-- HTML -->
+
+  <main class="Fondo"> 
+    
+<!-- contenedor -->
+    <div class="contenedor">
+
+<!-- COmputadora -->
+<div class="Computadora"><a href="https://mrt-coder.github.io/LinkTreeJosuebmll/" class="PC">Modo Computadora</a></div>
+
+  <!-- TITULO -->
+      <div >
+  <h1 class="titulo">Josuebmll</h1>
+  </div>
+
+  <!-- YOUTUBE -->
+  <div class="Youtube"><a href="https://www.youtube.com/channel/UCQYvHrhJCL7YP183BcFzg5g" class="YT">YOUTUBE</a>
+  <img class="LogoYT" src="LogoYT.png" alt="">
+  </div>
+
+<!-- GITHUB  -->
+<DIV class="Github"><a href="https://github.com/MrT-coder" class="GH">GITHUB</a>
+  <img class="LogoGH" src="LogoGITHUB.png" alt="">
+</DIV>
+
+<!-- INSTAGRAM -->
+<div class="Instagram"><a href="https://www.instagram.com/josuebmll/"  class="IG">INSTAGRAM</a> 
+<img class="LogoIG" src="LogoINsta.jpg" alt=""></div>
+
+
+<!-- ILUSTRACION -->
+<div class="Ilustracion">
+<img  src="Ilustracion.svg" alt="" class="img">
+</div>
+</div>
+  </main>
+</body>
+</html>
